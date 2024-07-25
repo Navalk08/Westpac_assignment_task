@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9BAE3D22C51C0E600C37E9D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BAE3D12C51C0E600C37E9D /* SplashScreenView.swift */; };
+		E9BAE3D42C51C15C00C37E9D /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BAE3D32C51C15C00C37E9D /* SplashViewModel.swift */; };
+		E9F588342C505D88009B9BE6 /* Westpac_TechnicalTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F588332C505D88009B9BE6 /* Westpac_TechnicalTaskApp.swift */; };
+		E9F588362C505D88009B9BE6 /* CreditCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F588352C505D88009B9BE6 /* CreditCardListView.swift */; };
+		E9F588382C505D89009B9BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F588372C505D89009B9BE6 /* Assets.xcassets */; };
+		E9F5883B2C505D89009B9BE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F5883A2C505D89009B9BE6 /* Preview Assets.xcassets */; };
+		E9F588452C505D89009B9BE6 /* Westpac_TechnicalTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F588442C505D89009B9BE6 /* Westpac_TechnicalTaskTests.swift */; };
+		E9F5884F2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5884E2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests.swift */; };
+		E9F588512C505D89009B9BE6 /* Westpac_TechnicalTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F588502C505D89009B9BE6 /* Westpac_TechnicalTaskUITestsLaunchTests.swift */; };
+		E9F588622C505EBC009B9BE6 /* CreditCardListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F588612C505EBC009B9BE6 /* CreditCardListModel.swift */; };
+		E9F588642C505EFA009B9BE6 /* CreditCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F588632C505EFA009B9BE6 /* CreditCardViewModel.swift */; };
+		E9F588662C5067B8009B9BE6 /* CreditCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F588652C5067B8009B9BE6 /* CreditCardDetailView.swift */; };
+		E9F5886A2C50741F009B9BE6 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F588692C50741F009B9BE6 /* RestClient.swift */; };
+		E9F5886C2C5074D4009B9BE6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5886B2C5074D4009B9BE6 /* Reachability.swift */; };
+		E9F588702C50BE3E009B9BE6 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5886F2C50BE3E009B9BE6 /* AppConstants.swift */; };
+		E9F588722C50CFB9009B9BE6 /* BookMarkedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F588712C50CFB9009B9BE6 /* BookMarkedListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F588412C505D89009B9BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F588282C505D88009B9BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F5882F2C505D88009B9BE6;
+			remoteInfo = Westpac_TechnicalTask;
+		};
+		E9F5884B2C505D89009B9BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F588282C505D88009B9BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F5882F2C505D88009B9BE6;
+			remoteInfo = Westpac_TechnicalTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9BAE3D12C51C0E600C37E9D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		E9BAE3D32C51C15C00C37E9D /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		E9F588302C505D88009B9BE6 /* Westpac_TechnicalTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westpac_TechnicalTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F588332C505D88009B9BE6 /* Westpac_TechnicalTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westpac_TechnicalTaskApp.swift; sourceTree = "<group>"; };
+		E9F588352C505D88009B9BE6 /* CreditCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardListView.swift; sourceTree = "<group>"; };
+		E9F588372C505D89009B9BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F5883A2C505D89009B9BE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9F588402C505D89009B9BE6 /* Westpac_TechnicalTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Westpac_TechnicalTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F588442C505D89009B9BE6 /* Westpac_TechnicalTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westpac_TechnicalTaskTests.swift; sourceTree = "<group>"; };
+		E9F5884A2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Westpac_TechnicalTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F5884E2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westpac_TechnicalTaskUITests.swift; sourceTree = "<group>"; };
+		E9F588502C505D89009B9BE6 /* Westpac_TechnicalTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Westpac_TechnicalTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9F588612C505EBC009B9BE6 /* CreditCardListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardListModel.swift; sourceTree = "<group>"; };
+		E9F588632C505EFA009B9BE6 /* CreditCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewModel.swift; sourceTree = "<group>"; };
+		E9F588652C5067B8009B9BE6 /* CreditCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDetailView.swift; sourceTree = "<group>"; };
+		E9F588692C50741F009B9BE6 /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		E9F5886B2C5074D4009B9BE6 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E9F5886F2C50BE3E009B9BE6 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		E9F588712C50CFB9009B9BE6 /* BookMarkedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkedListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F5882D2C505D88009B9BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5883D2C505D89009B9BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F588472C505D89009B9BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9BAE3D02C51C0C800C37E9D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				E9BAE3D12C51C0E600C37E9D /* SplashScreenView.swift */,
+				E9BAE3D32C51C15C00C37E9D /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		E9F588272C505D88009B9BE6 = {
+			isa = PBXGroup;
+			children = (
+				E9F588322C505D88009B9BE6 /* Westpac_TechnicalTask */,
+				E9F588432C505D89009B9BE6 /* Westpac_TechnicalTaskTests */,
+				E9F5884D2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests */,
+				E9F588312C505D88009B9BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F588312C505D88009B9BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F588302C505D88009B9BE6 /* Westpac_TechnicalTask.app */,
+				E9F588402C505D89009B9BE6 /* Westpac_TechnicalTaskTests.xctest */,
+				E9F5884A2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F588322C505D88009B9BE6 /* Westpac_TechnicalTask */ = {
+			isa = PBXGroup;
+			children = (
+				E9BAE3D02C51C0C800C37E9D /* Splash */,
+				E9F5886D2C50BDCD009B9BE6 /* Classes */,
+				E9F5886E2C50BDE2009B9BE6 /* Constants */,
+				E9F588672C506DC4009B9BE6 /* Services */,
+				E9F588332C505D88009B9BE6 /* Westpac_TechnicalTaskApp.swift */,
+				E9F588372C505D89009B9BE6 /* Assets.xcassets */,
+				E9F588392C505D89009B9BE6 /* Preview Content */,
+			);
+			path = Westpac_TechnicalTask;
+			sourceTree = "<group>";
+		};
+		E9F588392C505D89009B9BE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5883A2C505D89009B9BE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9F588432C505D89009B9BE6 /* Westpac_TechnicalTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F588442C505D89009B9BE6 /* Westpac_TechnicalTaskTests.swift */,
+			);
+			path = Westpac_TechnicalTaskTests;
+			sourceTree = "<group>";
+		};
+		E9F5884D2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5884E2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests.swift */,
+				E9F588502C505D89009B9BE6 /* Westpac_TechnicalTaskUITestsLaunchTests.swift */,
+			);
+			path = Westpac_TechnicalTaskUITests;
+			sourceTree = "<group>";
+		};
+		E9F5885D2C505DFD009B9BE6 /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				E9F588602C505E3F009B9BE6 /* Models */,
+				E9F5885F2C505E2D009B9BE6 /* ViewModels */,
+				E9F5885E2C505E24009B9BE6 /* Views */,
+			);
+			path = CreditCard;
+			sourceTree = "<group>";
+		};
+		E9F5885E2C505E24009B9BE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9F588352C505D88009B9BE6 /* CreditCardListView.swift */,
+				E9F588652C5067B8009B9BE6 /* CreditCardDetailView.swift */,
+				E9F588712C50CFB9009B9BE6 /* BookMarkedListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9F5885F2C505E2D009B9BE6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E9F588632C505EFA009B9BE6 /* CreditCardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E9F588602C505E3F009B9BE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9F588612C505EBC009B9BE6 /* CreditCardListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9F588672C506DC4009B9BE6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E9F588682C506DD1009B9BE6 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E9F588682C506DD1009B9BE6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E9F588692C50741F009B9BE6 /* RestClient.swift */,
+				E9F5886B2C5074D4009B9BE6 /* Reachability.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E9F5886D2C50BDCD009B9BE6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5885D2C505DFD009B9BE6 /* CreditCard */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9F5886E2C50BDE2009B9BE6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5886F2C50BE3E009B9BE6 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F5882F2C505D88009B9BE6 /* Westpac_TechnicalTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F588542C505D89009B9BE6 /* Build configuration list for PBXNativeTarget "Westpac_TechnicalTask" */;
+			buildPhases = (
+				E9F5882C2C505D88009B9BE6 /* Sources */,
+				E9F5882D2C505D88009B9BE6 /* Frameworks */,
+				E9F5882E2C505D88009B9BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Westpac_TechnicalTask;
+			productName = Westpac_TechnicalTask;
+			productReference = E9F588302C505D88009B9BE6 /* Westpac_TechnicalTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F5883F2C505D89009B9BE6 /* Westpac_TechnicalTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F588572C505D89009B9BE6 /* Build configuration list for PBXNativeTarget "Westpac_TechnicalTaskTests" */;
+			buildPhases = (
+				E9F5883C2C505D89009B9BE6 /* Sources */,
+				E9F5883D2C505D89009B9BE6 /* Frameworks */,
+				E9F5883E2C505D89009B9BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F588422C505D89009B9BE6 /* PBXTargetDependency */,
+			);
+			name = Westpac_TechnicalTaskTests;
+			productName = Westpac_TechnicalTaskTests;
+			productReference = E9F588402C505D89009B9BE6 /* Westpac_TechnicalTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9F588492C505D89009B9BE6 /* Westpac_TechnicalTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F5885A2C505D89009B9BE6 /* Build configuration list for PBXNativeTarget "Westpac_TechnicalTaskUITests" */;
+			buildPhases = (
+				E9F588462C505D89009B9BE6 /* Sources */,
+				E9F588472C505D89009B9BE6 /* Frameworks */,
+				E9F588482C505D89009B9BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F5884C2C505D89009B9BE6 /* PBXTargetDependency */,
+			);
+			name = Westpac_TechnicalTaskUITests;
+			productName = Westpac_TechnicalTaskUITests;
+			productReference = E9F5884A2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F588282C505D88009B9BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E9F5882F2C505D88009B9BE6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E9F5883F2C505D89009B9BE6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E9F5882F2C505D88009B9BE6;
+					};
+					E9F588492C505D89009B9BE6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E9F5882F2C505D88009B9BE6;
+					};
+				};
+			};
+			buildConfigurationList = E9F5882B2C505D88009B9BE6 /* Build configuration list for PBXProject "Westpac_TechnicalTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F588272C505D88009B9BE6;
+			productRefGroup = E9F588312C505D88009B9BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F5882F2C505D88009B9BE6 /* Westpac_TechnicalTask */,
+				E9F5883F2C505D89009B9BE6 /* Westpac_TechnicalTaskTests */,
+				E9F588492C505D89009B9BE6 /* Westpac_TechnicalTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F5882E2C505D88009B9BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5883B2C505D89009B9BE6 /* Preview Assets.xcassets in Resources */,
+				E9F588382C505D89009B9BE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5883E2C505D89009B9BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F588482C505D89009B9BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F5882C2C505D88009B9BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F588362C505D88009B9BE6 /* CreditCardListView.swift in Sources */,
+				E9F588662C5067B8009B9BE6 /* CreditCardDetailView.swift in Sources */,
+				E9F588642C505EFA009B9BE6 /* CreditCardViewModel.swift in Sources */,
+				E9F588702C50BE3E009B9BE6 /* AppConstants.swift in Sources */,
+				E9BAE3D42C51C15C00C37E9D /* SplashViewModel.swift in Sources */,
+				E9F588342C505D88009B9BE6 /* Westpac_TechnicalTaskApp.swift in Sources */,
+				E9F5886A2C50741F009B9BE6 /* RestClient.swift in Sources */,
+				E9F588622C505EBC009B9BE6 /* CreditCardListModel.swift in Sources */,
+				E9BAE3D22C51C0E600C37E9D /* SplashScreenView.swift in Sources */,
+				E9F588722C50CFB9009B9BE6 /* BookMarkedListView.swift in Sources */,
+				E9F5886C2C5074D4009B9BE6 /* Reachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F5883C2C505D89009B9BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F588452C505D89009B9BE6 /* Westpac_TechnicalTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F588462C505D89009B9BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5884F2C505D89009B9BE6 /* Westpac_TechnicalTaskUITests.swift in Sources */,
+				E9F588512C505D89009B9BE6 /* Westpac_TechnicalTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F588422C505D89009B9BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F5882F2C505D88009B9BE6 /* Westpac_TechnicalTask */;
+			targetProxy = E9F588412C505D89009B9BE6 /* PBXContainerItemProxy */;
+		};
+		E9F5884C2C505D89009B9BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F5882F2C505D88009B9BE6 /* Westpac_TechnicalTask */;
+			targetProxy = E9F5884B2C505D89009B9BE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9F588522C505D89009B9BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9F588532C505D89009B9BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F588552C505D89009B9BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Westpac_TechnicalTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.com.Westpac-TechnicalTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9F588562C505D89009B9BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Westpac_TechnicalTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.com.Westpac-TechnicalTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9F588582C505D89009B9BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.com.Westpac-TechnicalTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westpac_TechnicalTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Westpac_TechnicalTask";
+			};
+			name = Debug;
+		};
+		E9F588592C505D89009B9BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.com.Westpac-TechnicalTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westpac_TechnicalTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Westpac_TechnicalTask";
+			};
+			name = Release;
+		};
+		E9F5885B2C505D89009B9BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.com.Westpac-TechnicalTaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Westpac_TechnicalTask;
+			};
+			name = Debug;
+		};
+		E9F5885C2C505D89009B9BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.com.Westpac-TechnicalTaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Westpac_TechnicalTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F5882B2C505D88009B9BE6 /* Build configuration list for PBXProject "Westpac_TechnicalTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F588522C505D89009B9BE6 /* Debug */,
+				E9F588532C505D89009B9BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F588542C505D89009B9BE6 /* Build configuration list for PBXNativeTarget "Westpac_TechnicalTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F588552C505D89009B9BE6 /* Debug */,
+				E9F588562C505D89009B9BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F588572C505D89009B9BE6 /* Build configuration list for PBXNativeTarget "Westpac_TechnicalTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F588582C505D89009B9BE6 /* Debug */,
+				E9F588592C505D89009B9BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F5885A2C505D89009B9BE6 /* Build configuration list for PBXNativeTarget "Westpac_TechnicalTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5885B2C505D89009B9BE6 /* Debug */,
+				E9F5885C2C505D89009B9BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F588282C505D88009B9BE6 /* Project object */;
+}
